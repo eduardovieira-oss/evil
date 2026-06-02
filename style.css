@@ -1,0 +1,77 @@
+* body {
+    background-image: url('https://www.europanet.com.br/upload/id_produto/60_____/6000202g.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+#cabecalho-principal {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+#cabecalho-principal h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.conteudo-jogo, .secao-formulario {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.conteudo-jogo h2, .secao-formulario h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 0.5rem;
+}
+.secao-formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.secao-formulario label {
+    font-weight: bold;
+}
+.secao-formulario input {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.secao-formulario button {
+    background-color: #27ae60;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#rodape {
+    text-align: center;
+    padding: 1rem;
+}
+#rodape a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+#rodape a:hover {
+    text-decoration: underline;
+}
